@@ -37,12 +37,12 @@ public abstract class Account {
     }
 
     public void withdraw(double amountWithdraw) {
-        this.amount -= amount;
+        this.amount -= amountWithdraw;
 
     }
 
     public void deposit(double amountDeposit) {
-        this.amount += amount;
+        this.amount += amountDeposit;
 
     }
 }
